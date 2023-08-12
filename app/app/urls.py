@@ -298,8 +298,8 @@ urlpatterns = [
     url(r'^api/v0.1/choose_persona/', dashboard.views.choose_persona, name='choose_persona'),
     url(r'^api/v1/onboard_save/', dashboard.views.onboard_save, name='onboard_save'),
     url(r'^api/v1/file_upload/', dashboard.views.file_upload, name='file_upload'),
-    url(r'^api/v1/mautic/(?P<endpoint>.*)', dashboard.views.mautic_api, name='mautic_api'),
-    url(r'^api/v1/mautic_profile_save/', dashboard.views.mautic_profile_save, name='mautic_profile_save'),
+    # url(r'^api/v1/mautic/(?P<endpoint>.*)', dashboard.views.mautic_api, name='mautic_api'),
+    # url(r'^api/v1/mautic_profile_save/', dashboard.views.mautic_profile_save, name='mautic_profile_save'),
 
     # Health check endpoint
     re_path(r'^health/', include('health_check.urls')),
@@ -562,6 +562,7 @@ urlpatterns = [
     re_path(r'^products/?$', retail.views.products, name='products'),
     re_path(r'^landing/avatar/?', retail.views.avatar, name='avatar_landing'),
     path('not_a_token', retail.views.not_a_token, name='not_a_token'),
+    re_path(r'^results', retail.views.results2023, name='results-2023'),
     re_path(r'^results/?(?P<keyword>.*)/?', retail.views.results, name='results_by_keyword'),
     re_path(r'^results/?$', retail.views.results, name='results'),
     re_path(r'^activity/?$', retail.views.activity, name='activity'),
