@@ -474,7 +474,7 @@ let environment = [
     },
     {
         name: "BASE_URL",
-        value: "https://gitcoin.co/"
+        value: "https://bounties.gitcoin.co/"
     },
     {
         name: "SENTRY_DSN",
@@ -600,7 +600,7 @@ let environment = [
     },
     {
         name: "CONTACT_EMAIL",
-        value: ""
+        value: "support@gitcoin.co"
     },
     {
         name: "FEE_ADDRESS",
@@ -765,7 +765,7 @@ let environment = [
 
 const service = new awsx.ecs.FargateService("app", {
     cluster,
-    desiredCount: 10,
+    desiredCount: 6,
     subnets: vpc.privateSubnetIds,
     taskDefinitionArgs: {
         containers: {
