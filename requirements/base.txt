@@ -1,7 +1,7 @@
 bs4
 ccxt
 cryptocompare==0.6
-cryptography==2.3
+cryptography==41.0.3
 celery==4.4.0
 django-celery-beat==1.1.1
 django==2.2.24
@@ -73,7 +73,7 @@ git+https://github.com/gitcoinco/django-cacheops.git#egg=django-cacheops
 django-redis==4.10.0
 collectfast==0.6.2
 django-health-check==3.7.0
-elastic-apm==3.0.1
+elastic-apm==5.1.0
 mkdocs==1.2.3
 pymdown-extensions==5.0
 mkdocs-material==3.0.4
