@@ -510,6 +510,8 @@ def robotstxt(request):
 
 
 def about(request):
+    # redirect to new site
+    return redirect('https://gitcoin.co/about')
 
     data_about = JSONStore.objects.get(view='about', key='general').data
 
@@ -768,6 +770,9 @@ def not_a_token(request):
     return redirect('/')
 
 
+def results2023(request, keyword=None):
+    return TemplateResponse(request, 'results-2023.html')
+
 def results(request, keyword=None):
     """Render the Results response."""
     if keyword and keyword not in programming_languages:
@@ -779,7 +784,7 @@ def results(request, keyword=None):
     context['prefix'] = 'data-'
     import json
     context['avatar_url'] = static('v2/images/results_preview.gif')
-    return TemplateResponse(request, 'results.html', context)
+    return TemplateResponse(request, 'results.html')
 
 def get_specific_activities(what, trending_only, user, after_pk, request=None, page=1, page_size=10):
 
@@ -1323,7 +1328,7 @@ def reddit(request):
     return redirect('https://www.reddit.com/r/gitcoincommunity/')
 
 def blog(request):
-    return redirect('https://go.gitcoin.co/blog')
+    return redirect('https://gitcoin.co/blog?utm_source=bounties.gitcoin.co')
 
 def calendar(request):
     return redirect('https://calendar.google.com/calendar/embed?src=7rq7ga2oubv3tk93hk67agdv88%40group.calendar.google.com')
