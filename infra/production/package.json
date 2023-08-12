@@ -1,7 +1,7 @@
 {
     "name": "production",
     "devDependencies": {
-        "@types/node": "^14"
+        "@types/node": "^18.14.6"
     },
     "dependencies": {
         "@pulumi/pulumi": "^3.56.0",
