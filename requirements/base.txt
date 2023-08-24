@@ -4,7 +4,7 @@ cryptocompare==0.6
 cryptography==41.0.3
 celery==5.2.2
 django-celery-beat==1.1.1
-django==3.2.14
+django==3.2.20
 django-csp==3.7
 django-cors-headers==2.4.0
 django-filter==2.4.0
