@@ -1,11 +1,11 @@
 {
-    "name": "staging",
-    "devDependencies": {
-        "@types/node": "^20.4.5"
-    },
-    "dependencies": {
-        "@pulumi/pulumi": "^3.76.1",
-        "@pulumi/aws": "^6.1.0",
-        "@pulumi/awsx": "^1.0.5"
-    }
+  "name": "staging",
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.76.1",
+    "@pulumi/aws": "^6.1.0",
+    "@pulumi/awsx": "^1.0.5"
+  }
 }
