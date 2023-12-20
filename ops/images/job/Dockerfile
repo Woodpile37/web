@@ -1,4 +1,4 @@
-FROM python:3.12.0b4-slim
+FROM python:3.12-slim
 # Specify label-schema specific arguments and labels.
 ARG BUILD_DATE
 ARG VCS_REF
