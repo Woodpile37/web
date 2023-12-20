@@ -1,11 +1,11 @@
 {
-    "name": "production",
-    "devDependencies": {
-        "@types/node": "^20.4.6"
-    },
-    "dependencies": {
-        "@pulumi/pulumi": "^3.76.1",
-        "@pulumi/aws": "^5.42.0",
-        "@pulumi/awsx": "^1.0.5"
-    }
+  "name": "production",
+  "devDependencies": {
+    "@types/node": "^20.4.6"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.76.1",
+    "@pulumi/aws": "^5.42.0",
+    "@pulumi/awsx": "^1.0.6"
+  }
 }
