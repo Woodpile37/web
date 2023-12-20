@@ -1,13 +1,13 @@
 {
-    "name": "infra-review",
-    "devDependencies": {
-        "@types/node": "^20.4.6"
-    },
-    "dependencies": {
-        "@pulumi/aws": "^5.42.0",
-        "@pulumi/awsx": "^1.0.2",
-        "@pulumi/pulumi": "^3.34.0",
-        "@types/mime": "^3.0.2",
-        "path": "^0.12.7"
-    }
+  "name": "infra-review",
+  "devDependencies": {
+    "@types/node": "^20.4.6"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^5.42.0",
+    "@pulumi/awsx": "^1.0.2",
+    "@pulumi/pulumi": "^3.34.0",
+    "@types/mime": "^3.0.2",
+    "path": "^0.12.7"
+  }
 }
