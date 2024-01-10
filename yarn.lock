@@ -1085,22 +1085,6 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/traverse@^7.23.2":
-  version "7.23.2"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.2.tgz#329c7a06735e144a506bdb2cad0268b7f46f4ad8"
-  integrity sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw==
-  dependencies:
-    "@babel/code-frame" "^7.22.13"
-    "@babel/generator" "^7.23.0"
-    "@babel/helper-environment-visitor" "^7.22.20"
-    "@babel/helper-function-name" "^7.23.0"
-    "@babel/helper-hoist-variables" "^7.22.5"
-    "@babel/helper-split-export-declaration" "^7.22.6"
-    "@babel/parser" "^7.23.0"
-    "@babel/types" "^7.23.0"
-    debug "^4.1.0"
-    globals "^11.1.0"
-
 "@babel/types@^7.15.4", "@babel/types@^7.15.6", "@babel/types@^7.4.4", "@babel/types@^7.7.0":
   version "7.15.6"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.15.6.tgz#99abdc48218b2881c058dd0a7ab05b99c9be758f"
@@ -2633,16 +2617,6 @@ browserslist@^4.12.0, browserslist@^4.21.9:
     node-releases "^2.0.13"
     update-browserslist-db "^1.0.13"
 
-browserslist@^4.12.0, browserslist@^4.21.9:
-  version "4.22.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.22.1.tgz#ba91958d1a59b87dab6fed8dfbcb3da5e2e9c619"
-  integrity sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==
-  dependencies:
-    caniuse-lite "^1.0.30001541"
-    electron-to-chromium "^1.4.535"
-    node-releases "^2.0.13"
-    update-browserslist-db "^1.0.13"
-
 browserslist@^4.14.5, browserslist@^4.16.6, browserslist@^4.17.0, browserslist@^4.19.1:
   version "4.19.1"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.19.1.tgz#4ac0435b35ab655896c31d53018b6dd5e9e4c9a3"
@@ -3771,7 +3745,7 @@ electron-to-chromium@^1.4.535:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.556.tgz#97385917eb6ea3ac6a3378cf87bb39ee1db96e76"
   integrity sha512-6RPN0hHfzDU8D56E72YkDvnLw5Cj2NMXZGg3UkgyoHxjVhG99KZpsKgBWMmTy0Ei89xwan+rbRsVB9yzATmYzQ==
 
-elliptic@6.5.4, elliptic@^6.4.0, elliptic@^6.5.2, elliptic@^6.5.3:
+elliptic@6.5.4, elliptic@^6.4.0, elliptic@^6.5.2, elliptic@^6.5.3, elliptic@^6.5.4:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"
   integrity sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==
@@ -4818,9 +4792,9 @@ focus-trap@^5.1.0:
     xtend "^4.0.1"
 
 follow-redirects@^1.14.0:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
-  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.4.tgz#cdc7d308bf6493126b17ea2191ea0ccf3e535adf"
+  integrity sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -4917,11 +4891,6 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
-
-function-bind@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.2.tgz#2c02d864d97f3ea6c8830c464cbd11ab6eab7a1c"
-  integrity sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==
 
 functional-red-black-tree@^1.0.1:
   version "1.0.1"
@@ -5331,13 +5300,6 @@ hash.js@1.1.7, hash.js@^1.0.0, hash.js@^1.0.3, hash.js@^1.1.7:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
-
-hasown@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/hasown/-/hasown-2.0.0.tgz#f4c513d454a57b7c7e1650778de226b11700546c"
-  integrity sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==
-  dependencies:
-    function-bind "^1.1.2"
 
 hi-base32@~0.5.0:
   version "0.5.1"
